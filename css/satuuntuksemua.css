@@ -1,0 +1,84 @@
+/* Selektor Elemen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Selektor ID */
+#main-title {
+    text-align: center;
+    color: #333;
+}
+
+/* Selektor Kelas */
+.content-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Selektor Atribut */
+a[href^="#"] {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudo-class */
+a:hover {
+    color: #007BFF;
+}
+
+/* Box Model */
+.example-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Positioning */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;}
