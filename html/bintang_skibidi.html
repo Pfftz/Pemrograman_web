@@ -18,14 +18,14 @@
     </nav>
 
     <header>
-        <h1>Selamat Datang di Halaman Web Saya!</h1>
+        <h1 id="main-title">Selamat Datang di Halaman Web Saya!</h1>
         <h2>Sub-Heading: Perkenalan Singkat</h2>
     </header>
 
     <main>
-        <p>Halo, nama saya <strong>Bedung</strong>. Saya seorang mahasiswa yang bercita-cita menjadi seorang pengembang game. Di bawah ini adalah beberapa hal yang saya sukai dan saya ingin bagikan</p>
+        <p class="intro">Halo, nama saya <strong>Bedung</strong>. Saya seorang mahasiswa yang bercita-cita menjadi seorang pengembang game. Di bawah ini adalah beberapa hal yang saya sukai dan saya ingin bagikan</p>
 
-        <img src="https://via.placeholder.com/300" alt="Gambar Contoh" width="300" height="200">
+        <img src="https://via.placeholder.com/300" alt="Gambar Contoh" class="example-image" width="300" height="200">
         
         <p>Untuk informasi lebih lanjut, kunjungi situs web favorit saya: <a href="https://pfftz.github.io/Codepolitan_sir/" target="_blank">my_porto</a>.</p>
 
@@ -64,11 +64,16 @@
                 <td>Menengah</td>
             </tr>
         </table>
+
+        <div class="relative-element">Ini adalah elemen dengan positioning relative.</div>
+        <div class="absolute-element">Ini adalah elemen dengan positioning absolute.</div>
     </main>
 
     <footer>
         <p>&copy; 2024 Hak Cipta oleh <strong>Your Highness</strong>.</p>
     </footer>
+
+    <div class="fixed-element">Ini adalah elemen dengan positioning fixed.</div>
 
 </body>
 </html>
