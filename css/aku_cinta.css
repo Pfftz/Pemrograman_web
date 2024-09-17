@@ -31,7 +31,7 @@ a[href^="#"] {
 
 /* Pseudo-class */
 a:hover {
-    color: #007BFF;
+    color: #007bff;
 }
 
 /* Box Model */
@@ -79,6 +79,16 @@ footer {
     color: #fff;
 }
 
-table, th, td {
-            border: 3px solid #ddd;
-            border-collapse: collapse;}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
