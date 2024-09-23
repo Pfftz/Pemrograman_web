@@ -10,7 +10,7 @@ body {
 /* Selektor ID */
 #main-title {
     text-align: center;
-    color: #333;
+    color: #fff;
 }
 
 /* Selektor Kelas */
@@ -24,7 +24,6 @@ body {
 
 /* Selektor Atribut */
 a[href^="#"] {
-    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
