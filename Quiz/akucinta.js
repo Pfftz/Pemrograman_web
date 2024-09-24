@@ -75,11 +75,20 @@ document.addEventListener("DOMContentLoaded", function () {
             display.value = currentInput;
         } else {
             if (calculationComplete) {
-                display.value = "";
+                if (isOperator(value)) {
+                    currentInput = display.value + value;
+                } else {
+                    currentInput = value;
+                }
                 calculationComplete = false;
+            } else {
+                currentInput += value;
             }
-            currentInput += value;
             display.value = currentInput;
         }
+    }
+
+    function isOperator(value) {
+        return ["+", "-", "*", "/", "^", "%"].includes(value);
     }
 });
